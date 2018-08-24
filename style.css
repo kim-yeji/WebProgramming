@@ -1,0 +1,134 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+body{
+  background-color: #EBE5C7;
+  width:1100px;
+  margin:20px auto;
+}
+header{
+  margin: 0 auto;
+  background-color: #EBE5C7;
+  width: 1100px;
+  height: 100px;
+}
+header h1{
+  font-size: 26px;
+  font-weight: bold;
+  font-family:  Arial,sans-serif;
+  line-height: 100px;
+  text-align: center;
+  color:#664F40;
+}
+h2{
+  color: #5B3351;
+  font-family:  Arial,sans-serif;
+  font-size: 24px;
+  text-decoration: underline;
+  text-align: left;
+
+}
+h4{
+  color:#896C84;
+  font-family:  Arial,sans-serif;
+  font-size: 20px;
+  text-decoration: underline;
+  text-align: left;
+}
+
+img{
+   border:6px;
+  display:block;
+    margin: 0 auto;
+  border-style: solid;
+   border-color: #E5AAA2;
+}
+nav{
+  margin: 0 auto;
+  background-color: #E69999;
+  width: 1100px;
+  height: 50px;
+
+}
+iframe{
+  border:0;
+}
+nav ul{
+  list-style: none;
+  overflow: hidden;
+}
+nav ul li{
+  /*가로정렬*/
+  float: left;
+  display: block;
+  /*크기 설정*/
+  width: 170px;
+  height: 50px;
+  margin-top: 5px;
+  padding-top:5px;
+  padding-left: 95px;
+
+}
+
+nav ul a{
+  color: white;
+  text-decoration: none;
+
+}
+#like ul{
+  list-style-type:square;
+  list-style-position:inside;
+  text-indent: 10px;
+}
+#like ul a:link{
+  color: #BE5A5A;
+}
+#like ul a:visited{
+  color: #646464;
+}
+#like ul a:hover{
+  color: #0A6EFF;
+}
+#like ul a:active{
+  color: #800000;
+}
+article{
+  background-color: #FFE3EE;
+  margin: 50px auto;
+  width: 1100px;
+
+}
+
+article p{
+  text-indent: 10px;
+  font-size: 14px;
+  text-align: left;
+  font-family: Arial,sans-serif;
+}
+
+.calClass{
+  font-weight: bold;
+  color: blue;
+}
+table, td,th{
+  border: 1px solid;
+  border-collapse:collapse;
+  background-color:#EFA7A7;
+  padding:20px;
+  text-align: center;
+}
+td{
+  background-color: white;
+}
+
+
+footer{
+  margin: 0 auto;
+  text-align: center;
+  width: 1100px;
+  height: 40px;
+  padding-top: 15px;
+  background-color: #dcdcdc;
+}
